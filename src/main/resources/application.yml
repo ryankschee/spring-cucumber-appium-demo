@@ -1,0 +1,12 @@
+device:
+  name: Pixel 2
+  version: 9
+  platform: Android
+application:
+  package: com.example.josdem
+  activity: com.jugoterapia.josdem.activity.CategoryActivity
+appium:
+  server: http://127.0.0.1:4723/wd/hub
+  wait: 10
+  timeout: 20
+  sleep: 2
